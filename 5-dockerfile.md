@@ -53,14 +53,20 @@ docker build -t <nombre imagen>:<version> .
 ### Ejecutar el archivo Dockerfile y construir una imagen en la versión 1.0
 _Puedes copiar y ejecutar directamente. No olvides verificar en qué directorio se encuentra el archivo Dockerfile
 ```
+FROM centos:7
+RUN yum update -y
+RUN yum install -y httpd
+COPY ./web /var/www/html
+EXPOSE 80
+CMD ["apachectl", "-D", "FOREGROUND"]
 
 ```
 
 **¿Cuántos pasos se han ejecutado?**
-# RESPONDER 
+9
 
 ### Inspeccionar la imagen creada
-# COMPLETAR CON UNA CAPTURA
+![Dockerfile](imagenes/img1.PNG)
 
 **Modificar el archivo index.html para incluir su nombre**
 **¿Cuántos pasos se han ejecutado? ¿Observa algo diferente en la creación de la imagen**
