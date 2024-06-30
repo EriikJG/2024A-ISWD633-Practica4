@@ -66,7 +66,7 @@ CMD ["apachectl", "-D", "FOREGROUND"]
 9
 
 ### Inspeccionar la imagen creada
-![Dockerfile](imagenes/img1.PNG)
+![Dockerfile](imagenes/img1.png)
 
 **Modificar el archivo index.html para incluir su nombre**
 **¿Cuántos pasos se han ejecutado? ¿Observa algo diferente en la creación de la imagen**
