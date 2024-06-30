@@ -1,4 +1,5 @@
-Comparación de Conocimientos Antes y Después de la Práctica
+## Comparación de Conocimientos Antes y Después de la Práctica
+
 Antes de realizar esta práctica, tenía un conocimiento básico de Docker, incluyendo su propósito general y algunas de sus funcionalidades clave. Ahora tengo conocimiento en: 
 
 Limitación de Recursos:
